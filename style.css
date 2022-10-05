@@ -1,0 +1,100 @@
+.container{
+    text-align: center;
+    margin: 5% 10% 5px 35%;
+    background-color: goldenrod;
+    width: 30%;
+ /* display: flex; */
+
+}
+
+
+body{
+    /* width: 100%; */
+    /* background-image: url("https://tse4.mm.bing.net/th?id=OIP.QJ7hPss9bL9zRQRThJQSfAHaEK&pid=Api&P=0"); */
+}
+
+.label_field, .input_field{
+    font-weight: bold;
+    /* margin: 5%; */
+}
+
+
+
+@media screen and ( max-width: 636px)
+{
+
+    h1{
+
+        text-align: center;
+        width: 30%;
+        /* height: 100%; */
+        /* background-color: powderblue; */
+    }
+
+ div{
+        text-align: center;
+        margin: 5% 30% 10px 30%;
+        background-color: aqua;
+    
+    }
+    
+    
+    input{
+        text-align: center;
+        width: 50%;
+        margin: 5%;
+    }
+    
+}
+
+@media screen and ( max-width: 590px)
+{
+
+    h1{
+
+        text-align: center;
+        width: 30%;
+    }
+
+ div{
+    text-align: center;
+        margin: 5% 30% 10px 30%;    
+    background-color: aqua;
+    
+    }
+
+    input{
+        text-align: center;
+        width: 50%;
+        margin: 5%;
+    }
+    
+}
+
+@media screen and (min-width: 459px)
+{
+
+    h1{
+
+        text-align: center;
+        width: 30%;
+        /* height: 100%; */
+        /* background-color: powderblue; */
+    }
+
+ div{
+        text-align: center;
+        margin: 5% 30% 10px 30%;
+        background-color: aqua;
+        width: 10%;
+    
+    }
+    
+    
+    input{
+        text-align: center;
+        width: 50%;
+        margin: 5%;
+    }
+    
+}
