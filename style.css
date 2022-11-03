@@ -1,7 +1,7 @@
 .container{
     text-align: center;
-    margin: 5% 10% 5px 35%;
-    background-color: goldenrod;
+    margin: 10% 10% 5px 35%;
+    /* background-color: goldenrod; */
     width: 30%;
  /* display: flex; */
 
@@ -32,17 +32,17 @@ body{
         /* background-color: powderblue; */
     }
 
- div{
+ .container{
         text-align: center;
-        margin: 5% 30% 10px 30%;
-        background-color: aqua;
+        margin: 18% 10% 5px 35%;
+        /* background-color: aqua; */
     
     }
     
     
     input{
         text-align: center;
-        width: 50%;
+        width: 80%;
         margin: 5%;
     }
     
@@ -57,22 +57,23 @@ body{
         width: 30%;
     }
 
- div{
+ .container{
     text-align: center;
-        margin: 5% 30% 10px 30%;    
-    background-color: aqua;
+    margin: 13% 10% 5px 24%;    
+    width: 46%;
+    background-color: gray;
     
     }
 
     input{
         text-align: center;
-        width: 50%;
+        width: 80%;
         margin: 5%;
     }
     
 }
 
-@media screen and (min-width: 459px)
+@media screen and (max-width: 459px)
 {
 
     h1{
@@ -83,18 +84,18 @@ body{
         /* background-color: powderblue; */
     }
 
- div{
+ .container{
         text-align: center;
-        margin: 5% 30% 10px 30%;
-        background-color: aqua;
-        width: 10%;
+        margin: 18% 30% 10px 23%;
+        /* background-color: aqua; */
+        width: 56%;
     
     }
     
     
     input{
         text-align: center;
-        width: 50%;
+        width: 80%;
         margin: 5%;
     }
     
